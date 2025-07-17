@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conrad Decker - AI Enablement for Engineering Teams</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#1e293b', // Dark slate
+                        secondary: '#f8fafc', // Light slate background
+                        accent: '#3b82f6', // Blue accent
+                    },
+                    fontFamily: {
+                        sans: ['ui-sans-serif', 'system-ui', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <style type="text/tailwind">
+        @layer base {
+            body {
+                @apply text-gray-800 leading-relaxed;
+            }
+            h1, h2, h3, h4, h5, h6 {
+                @apply font-bold leading-tight;
+            }
+            a {
+                @apply text-accent hover:underline;
+            }
+            blockquote {
+                @apply border-l-4 border-accent pl-4 italic;
+            }
+            hr {
+                @apply border-gray-200;
+            }
+        }
+    </style>
+</head>
+<body class="bg-white font-sans">
+    <header class="pt-12">
+        <nav class="container mx-auto px-4">
+            <ul class="flex flex-wrap justify-center space-x-6 text-sm">
+                <li><a href="#home" class="hover:text-accent no-underline">Home</a></li>
+                <li><a href="#about" class="hover:text-accent no-underline">About</a></li>
+                <li><a href="#approach" class="hover:text-accent no-underline">Approach</a></li>
+                <li><a href="#checklist" class="hover:text-accent no-underline">Free Checklist</a></li>
+                <li><a href="#contact" class="hover:text-accent no-underline">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container mx-auto px-4 max-w-3xl">
+        <!-- Hero Section -->
+        <section id="home" class="hero text-center pt-12">
+            <div class="mb-6">
+                <img src="profile-photo.jpg" alt="Conrad Decker" class="size-48 rounded-full mx-auto object-cover shadow-lg">
+            </div>
+            <h1 class="text-4xl font-bold mb-4">Bring AI into your engineering org — without breaking what's working.</h1>
+            <h3 class="text-xl font-normal text-gray-600 mb-8">I help engineering leaders implement practical AI strategies that accelerate velocity, improve code quality, and empower developers — safely, strategically, and without disruption.</h3>
+
+            <div class="cta">
+                <a href="https://calendar.app.google/xervyxc2rqoLm7Hn6" class="bg-accent hover:bg-blue-600 text-white font-bold py-3 px-6 rounded inline-block mb-4 no-underline mr-4">Book a Free Intro Call</a>
+                <a href="#checklist" class="bg-gray-100 hover:bg-gray-200 text-primary font-bold py-3 px-6 rounded inline-block mb-4 no-underline">Get AI Readiness Checklist</a>
+            </div>
+        </section>
+
+        <hr class="my-12">
+
+        <!-- Problem Section -->
+        <section class="problem py-8">
+            <h2 class="text-3xl font-bold mb-6 text-center">Engineering leaders are under pressure to "do something with AI."</h2>
+            <p class="text-xl text-gray-600 mb-8 text-center">But most don't know where to start — or worse, start in the wrong place.</p>
+            
+            <div class="pain-points bg-secondary p-6 rounded-lg">
+                <ul class="space-y-4">
+                    <li class="flex items-start">
+                        <span class="text-red-500 mr-3 mt-1">⚠️</span>
+                        <p>Teams are anxious or resistant to AI adoption</p>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-red-500 mr-3 mt-1">⚠️</span>
+                        <p>Workflows break instead of improve when AI tools are introduced</p>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-red-500 mr-3 mt-1">⚠️</span>
+                        <p>Tooling changes faster than you can evaluate it</p>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-red-500 mr-3 mt-1">⚠️</span>
+                        <p>Leadership wants results, but no one knows how to measure success</p>
+                    </li>
+                </ul>
+                
+                <p class="mt-6 text-center font-medium">You can't afford to disrupt your team — but you also can't afford to fall behind.</p>
+            </div>
+        </section>
+
+        <!-- Dream Section -->
+        <section class="solution py-8">
+            <h2 class="text-3xl font-bold mb-6 text-center">Imagine this instead:</h2>
+            
+            <div class="benefits bg-secondary p-6 rounded-lg">
+                <ul class="space-y-4">
+                    <li class="flex items-start">
+                        <span class="text-green-500 mr-3 mt-1">✅</span>
+                        <p>Developers using AI confidently — inside workflows they already love</p>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-green-500 mr-3 mt-1">✅</span>
+                        <p>Code reviews, refactors, and QA sped up by integrated LLMs</p>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-green-500 mr-3 mt-1">✅</span>
+                        <p>Fewer bugs. Faster PRs. Better developer experience.</p>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-green-500 mr-3 mt-1">✅</span>
+                        <p>Clear insight into the impact of AI on team performance</p>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-green-500 mr-3 mt-1">✅</span>
+                        <p>Executives seeing progress they can trust and measure</p>
+                    </li>
+                </ul>
+                
+                <p class="mt-6 text-center font-medium">AI becomes a <em>force multiplier</em>, not a distraction.</p>
+            </div>
+        </section>
+
+        <!-- Fix/Approach Section -->
+        <section id="approach" class="value-prop py-8">
+            <h2 class="text-3xl font-bold mb-6 text-center">You don't need another tool. You need a strategy.</h2>
+            
+            <div class="space-y-6">
+                <p class="text-lg">I work with engineering leaders to implement AI through a proven 3-phase process:</p>
+
+                <div class="grid md:grid-cols-3 gap-6 mt-8">
+                    <div class="bg-secondary p-6 rounded-lg text-center">
+                        <div class="text-3xl mb-4">🔍</div>
+                        <h3 class="text-xl font-bold mb-2">1. Discovery</h3>
+                        <p class="text-gray-600">Understand your systems, stack, and pain points</p>
+                    </div>
+                    <div class="bg-secondary p-6 rounded-lg text-center">
+                        <div class="text-3xl mb-4">🎯</div>
+                        <h3 class="text-xl font-bold mb-2">2. Design</h3>
+                        <p class="text-gray-600">Identify high-leverage, low-risk AI opportunities</p>
+                    </div>
+                    <div class="bg-secondary p-6 rounded-lg text-center">
+                        <div class="text-3xl mb-4">🚀</div>
+                        <h3 class="text-xl font-bold mb-2">3. Deployment</h3>
+                        <p class="text-gray-600">Roll out safely with team buy-in and measurable impact</p>
+                    </div>
+                </div>
+
+                <p class="text-center mt-8 font-medium">Everything is grounded in your people, your product, and your priorities.</p>
+            </div>
+        </section>
+
+        <hr class="my-12">
+
+        <!-- AI Readiness Checklist Section -->
+        <section id="checklist" class="py-8 bg-gradient-to-r from-blue-50 to-slate-50 -mx-4 px-4 rounded-lg">
+            <div class="text-center">
+                <h2 class="text-3xl font-bold mb-4">Is Your Engineering Org Ready for AI?</h2>
+                <p class="text-xl text-gray-600 mb-6">Most teams are experimenting without a plan. This free 2-minute checklist helps engineering leaders assess where they stand — and what to do next.</p>
+                
+                <div class="max-w-md mx-auto bg-white p-6 rounded-lg shadow-lg">
+                    <h3 class="text-lg font-bold mb-4">Download the AI Readiness Checklist</h3>
+                    <p class="text-sm text-gray-600 mb-4">A quick self-assessment to help you evaluate your team's AI readiness and avoid common rollout mistakes.</p>
+                    
+                    <!-- Email opt-in form -->
+                    <form class="space-y-4" action="#" method="POST">
+                        <input type="email" placeholder="Your work email" required 
+                               class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-accent focus:border-transparent">
+                        <button type="submit" 
+                                class="w-full bg-accent text-white font-bold py-2 px-4 rounded-lg hover:bg-blue-600 transition-colors">
+                            Get the Checklist
+                        </button>
+                    </form>
+                    
+                    <p class="text-xs text-gray-500 mt-3">No spam. I'll send the checklist and follow up with occasional tips on AI strategy for engineering orgs. Unsubscribe anytime.</p>
+                </div>
+            </div>
+        </section>
+
+        <hr class="my-12">
+
+        <!-- About Section -->
+        <section id="about" class="about py-8">
+            <h2 class="text-3xl font-bold mb-6 text-center">Why Me?</h2>
+
+            <div class="space-y-6">
+                <p class="text-lg">I've spent over two decades building and leading engineering teams — from junior developer to CTO.</p>
+
+                <p>I've scaled SaaS orgs, improved delivery pipelines, coached dev teams, and shipped complex products under pressure. I know how engineering organizations work — and how to make change that sticks.</p>
+
+                <p>Today, I help engineering leaders bring AI into their orgs in ways that actually improve team performance. No hype. No disruption. Just real, practical enablement.</p>
+
+                <div class="bg-secondary p-6 rounded-lg mt-8">
+                    <h3 class="text-xl font-bold mb-4">Who I Work With</h3>
+                    <ul class="space-y-2">
+                        <li class="flex items-center"><span class="text-accent mr-2">•</span> Engineering orgs at SaaS companies (10-100+ engineers)</li>
+                        <li class="flex items-center"><span class="text-accent mr-2">•</span> CTOs, VPs of Engineering, or Heads of Platform/DevEx</li>
+                        <li class="flex items-center"><span class="text-accent mr-2">•</span> Teams already using GitHub, Linear, Jira, CI/CD, etc.</li>
+                        <li class="flex items-center"><span class="text-accent mr-2">•</span> Companies who want results, not just integrations</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <hr class="my-12">
+
+        <!-- Final CTA Section -->
+        <section id="contact" class="py-8 text-center">
+            <h2 class="text-3xl font-bold mb-4">Ready to get serious about AI?</h2>
+            <p class="text-xl text-gray-600 mb-8">Let's discuss how AI can work for your engineering organization.</p>
+            
+            <div class="space-y-4">
+                <a href="https://calendar.app.google/xervyxc2rqoLm7Hn6" 
+                   class="bg-accent hover:bg-blue-600 text-white font-bold py-3 px-8 rounded-lg inline-block no-underline">
+                    Book a Free Intro Call
+                </a>
+                <p class="text-gray-600">Or email me directly: <a href="mailto:me@conr.ad" class="text-accent">me@conr.ad</a></p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-secondary py-8 mt-12">
+        <div class="container mx-auto px-4 max-w-3xl">
+            <nav class="mb-6">
+                <ul class="flex flex-wrap justify-center space-x-6 text-sm">
+                    <li><a href="#home" class="hover:text-accent no-underline">Home</a></li>
+                    <li><a href="#about" class="hover:text-accent no-underline">About</a></li>
+                    <li><a href="#approach" class="hover:text-accent no-underline">Approach</a></li>
+                    <li><a href="#checklist" class="hover:text-accent no-underline">Free Checklist</a></li>
+                    <li><a href="mailto:me@conr.ad" class="hover:text-accent no-underline">Contact</a></li>
+                </ul>
+            </nav>
+
+            <p class="text-center text-gray-600">© 2024 Conrad Decker</p>
+        </div>
+    </footer>
+</body>
+</html>
